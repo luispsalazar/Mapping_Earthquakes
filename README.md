@@ -1,1 +1,3 @@
 # Mapping_Earthquakes
+
+In Module 13, you will use Leaflet.js to create a visualization to map earthquake data by latitude and longitude from the USGS. You will create data markers for each earthquake that will show the magnitude as text and magnitude as a circle and color, where the size and color are larger and darker as the magnitude increases. You will create popups that show additional information for each earthquake, like city, state, date and time. You will also create a legend for the map where the color in the legend reflects the magnitude. 
