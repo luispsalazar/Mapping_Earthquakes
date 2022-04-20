@@ -10,7 +10,10 @@ console.log("working");
 //   });
 
 // Create the map object with center at the San Francisco airport.
-let map = L.map('mapid').setView([37.5, -122.5], 10);
+// let map = L.map('mapid').setView([37.5, -122.5], 10);
+
+// Create the map object with center and zoom level.
+let map = L.map('mapid').setView([30, 30], 3);
 
 // Add GeoJSON data.
 let sanFranAirport =
@@ -93,10 +96,10 @@ L.geoJSON(sanFranAirport, {
   // We create the tile layer that will be the background of our map.
 
 // for white background:
-//let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}',{
+let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}',{
 
 // for dark background:
-let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}',{
+//let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}',{
 
 maxZoom: 18,
     accessToken: API_KEY
