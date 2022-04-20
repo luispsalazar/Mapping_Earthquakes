@@ -49,7 +49,7 @@ cityData.forEach(function(city) {
   // We create the tile layer that will be the background of our map.
 
 // for white background:
- let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}',{
+let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}',{
 
 // for dark background:
 //  let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token={accessToken}',{
@@ -60,7 +60,3 @@ maxZoom: 18,
 
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map);
-
-// let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}'
-
-
