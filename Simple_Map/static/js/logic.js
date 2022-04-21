@@ -52,7 +52,7 @@ L.control.layers(baseMaps).addTo(map);
 
 // Add GeoJSON data.
 // Accessing the airport GeoJSON URL
-let airportData = "https://github.com/luispsalazar/Mapping_Earthquakes/blob/main/majorAirports.json";
+let airportData = "https://raw.githubusercontent.com/luispsalazar/Mapping_Earthquakes/main/Simple_Map/majorAirports.json";
 
 
 // NOTE:
