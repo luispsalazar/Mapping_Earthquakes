@@ -16,8 +16,8 @@ let satelliteStreets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/stre
 
 // Create a base layer that holds both maps.
 let baseMaps = {
-  "Streets": streets,
-  "Satellite": satelliteStreets
+  Streets: streets,
+  Satellite: satelliteStreets
 };
 
 // Create the map object with center and zoom level.
