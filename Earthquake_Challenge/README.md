@@ -1,6 +1,6 @@
-# Mapping_Earthquakes
+# Mapping_Earthquakes, Module 13 Challenge
 
-Mapping Earthquakes creates a visualization to map earthquake data by latitude and longitude from the USGS. Data markers for each earthquake will show the magnitude as text and as a colored circle, where the size and color are larger and darker as the magnitude increases. Popups show additional information for each earthquake, like city, state, date and time. The color in the legend reflects the magnitude.
+Mapping_Earthquakes creates an interactive visualization of USGS' earthquake data, by latitude and longitude. Data markers for each earthquake show the magnitude as text, and as colored circles, where the size and color are larger and darker as the magnitude increases. Popups show additional information for each earthquake, like city, state, date and time. The color in the legend reflects the magnitude. The tectonic plates are also shown in the map, if selected.
 
 
 ## Deliverable 1
@@ -62,4 +62,10 @@ The third map is added to the overlay object.
 
 All the earthquake data and tectonic plate data are displayed on the all maps of the webpage.
 
+* "Dark"
+
 ![33](Images/33.png)
+
+* "Satellite"
+
+![34](Images/34.png)
